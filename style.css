@@ -1,0 +1,52 @@
+body
+{
+    text-align: center;
+    background: linear-gradient ( #E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+}
+img
+{
+    border-radius: 50%;
+    width:500px;
+}
+p
+{
+    font-size: 20px;
+    color:brown;
+}
+h1
+{
+    color:darkolivegreen;
+    font-size: 40px;
+    font-family: 'Hachi Maru Pop',cursive;
+}
+.menu
+{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
+li:hover{
+  color:darkslategrey;
+}
+#css{
+    height: 800px;
+    width: 500px;
+    border-radius: 5%;
+    transition: transform 0.2s;
+}
+#css:hover{
+    transform: scale(0.9);
+    
+}
+h3
+{
+    color: chartreuse;
+    font-family: 'Pangolin', cursive;
+}
